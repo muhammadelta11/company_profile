@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".sticky-column").html(`<div class="avatar-wrap">
     <svg class="avatar avatar--180" viewBox="0 0 188 188">
       <g class="avatar__box">
-        <image xlink:href="http://localhost/companyprofile/aku.jpg" height="100%" width="100%" />
+        <image xlink:href="https://muhammadelta11.github.io/companyprofile/aku.jpg" height="100%" width="100%" />
       </g>
     </svg>
   </div>
