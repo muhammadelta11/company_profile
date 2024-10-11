@@ -99,11 +99,15 @@
 				<!-- Post -->
 				<div class="pb-3">
 					<header class="header-post">
-						<h1 class="title title--h1">Perancangan dan Implementasi Sistem Pendukung Keputusan Pemilihan Smartphone Menggunakan Metode Simple Multi Attribute Rating Technique Berbasis Web </h1>
+						<h1 class="title title--h1">Review Artikel: MOORA: Metode Sistem Pendukung Keputusan untuk Menentukan Kelayakan Peminjaman Modal Dana Bergulir </h1>
 						<div class="caption-post">
-							<p>Pemilihan smartphone yang sesuai dengan kebutuhan dan preferensi pengguna seringkali menjadi tantangan karena banyaknya pilihan yang tersedia di pasar. Setiap smartphone memiliki spesifikasi dan fitur yang berbeda, seperti performa, kapasitas baterai, kamera, dan harga. Oleh karena itu, diperlukan sebuah sistem pendukung keputusan (SPK) yang dapat membantu pengguna memilih smartphone terbaik berdasarkan kriteria-kriteria yang relevan.
+							<p>Artikel ini membahas penerapan metode Multi-Objective Optimization by Ratio Analysis (MOORA) dalam pengembangan sistem pendukung keputusan (SPK) bagi Koperasi Doni Jaya untuk menentukan kelayakan peminjaman modal dana bergulir. Berikut adalah tinjauan lebih mendalam mengenai artikel ini.
 
-								Salah satu metode yang dapat digunakan untuk membangun SPK adalah Simple Multi Attribute Rating Technique (SMART). Metode SMART adalah salah satu teknik pengambilan keputusan yang sederhana namun efektif, di mana setiap alternatif dinilai berdasarkan atribut-atribut yang memiliki bobot tertentu. Pada artikel ini, akan dibahas bagaimana perancangan dan implementasi sistem pendukung keputusan pemilihan smartphone berbasis web menggunakan metode SMART.</p>
+								Ringkasan Artikel
+								Penelitian ini dimulai dengan latar belakang masalah di mana Koperasi Doni Jaya sedang mengalami kesulitan dalam menentukan nasabah yang layak mendapatkan pinjaman. Dengan menerapkan metode MOORA, artikel ini menunjukkan proses pembangunan SPK melalui model waterfall yang terbagi menjadi beberapa tahap: analisis kebutuhan, desain, pengembangan sistem, dan pengujian.
+								<br>
+								Dalam analisis, lima kriteria digunakan untuk menilai kelayakan nasabah: jaminan, tanggungan, pekerjaan, penghasilan, dan jumlah pinjaman. Hasil dari sistem ini menunjukkan bahwa MOORA efektif dalam mengidentifikasi nasabah yang layak, dengan hasil akhir yang memberikan rekomendasi kepada tiga calon nasabah teratas.
+</p>
 						</div>
 						<div class="header-post__image-wrap">
 							<img class="cover lazyload" src="./assets/img/artikel1/artikel.PNG" alt="" />
@@ -111,26 +115,42 @@
 					</header>
 					<div class="caption-post">
 						<h2>Metode Simple Multi Attribute Rating Technique (SMART)</h2>
-						<p>SMART merupakan metode pengambilan keputusan dengan menggunakan pendekatan multi-atribut, di mana setiap alternatif (dalam hal ini smartphone) dinilai berdasarkan beberapa kriteria atau atribut. Metode ini melibatkan langkah-langkah sebagai berikut:</p>
-						<li>Penentuan Kriteria: Menentukan kriteria-kriteria yang digunakan untuk menilai smartphone. Kriteria ini dapat mencakup harga, kapasitas baterai, kualitas kamera, performa prosesor, ukuran layar, dan lainnya.
+						<p>Metode MOORA
+							MOORA merupakan metode yang digunakan dalam sistem pendukung keputusan untuk memfasilitasi pengambilan keputusan yang melibatkan banyak kriteria. Berikut adalah rincian lebih lanjut tentang metode ini serta rumus yang digunakan:
+					
+							
+							2. Langkah-Langkah dalam MOORA:
+							   - Identifikasi Kriteria: Dalam penelitian ini, lima kriteria ditetapkan, yaitu jaminan, tanggungan, pekerjaan, penghasilan, dan jumlah pinjaman.
+							   - Normalisasi Data: Data dari masing-masing kriteria dinormalisasi agar memiliki skala yang sama dengan menggunakan rumus berikut:
+							</p>
+						<li>		
+							1. Prinsip Dasar: MOORA didasarkan pada perbandingan rasio yang mengoptimalkan setiap kriteria yang ada. Metode ini mengevaluasi beberapa alternatif dengan mempertimbangkan kriteria secara bersamaan, sehingga dapat menghasilkan solusi yang lebih seimbang dan objektif.
 
-							Pembobotan Kriteria: Setiap kriteria diberi bobot yang menunjukkan tingkat kepentingannya. Misalnya, jika performa prosesor lebih penting daripada harga, bobot untuk kriteria prosesor akan lebih besar.
+							2. Langkah-Langkah dalam MOORA:
+							<br>- Identifikasi Kriteria: Dalam penelitian ini, lima kriteria ditetapkan, yaitu jaminan, tanggungan, pekerjaan, penghasilan, dan jumlah pinjaman.
+							<br>- Normalisasi Data: Data dari masing-masing kriteria dinormalisasi agar memiliki skala yang sama dengan menggunakan rumus berikut:
+							<br>
+							<h5>Rumus</h5>
+							<br>
 							
-							Penilaian Alternatif: Setiap smartphone dinilai berdasarkan kriteria-kriteria tersebut. Nilai diberikan untuk setiap atribut berdasarkan performa smartphone dalam atribut tersebut.
 							
-							Perhitungan Nilai Total: Nilai total dari setiap alternatif dihitung dengan mengalikan nilai atribut dengan bobot masing-masing, kemudian menjumlahkan hasilnya.
-							
-							Pemilihan Alternatif Terbaik: Smartphone dengan nilai total tertinggi dipilih sebagai alternatif terbaik.
 						</li>
-						Sistem pendukung keputusan pemilihan smartphone ini dirancang berbasis web agar dapat diakses dengan mudah oleh pengguna. Sistem terdiri dari beberapa komponen utama:
+						3. Keuntungan Metode MOORA:
+   - Kedalaman Analisis: MOORA mampu menangani konflik di antara kriteria yang saling bertentangan, memberikan solusi yang lebih adil.
+   - Fleksibilitas: MOORA dapat diterapkan dalam berbagai konteks, baik itu dalam peminjaman modal, pemilihan kandidat, atau evaluasi performa.
 
-						User Interface (UI): Tampilan antarmuka web yang intuitif dan mudah digunakan, memungkinkan pengguna memasukkan preferensi kriteria dan melakukan pemilihan smartphone. Antarmuka mencakup form input untuk bobot kriteria, serta tampilan hasil rekomendasi smartphone.
+			<h4> Kelebihan</h4>
+			1. Pendekatan Terstruktur: Artikel ini menyajikan pendekatan yang jelas dan sistematis dengan pembagian model waterfall, sehingga memudahkan pemahaman setiap tahap dalam pengembangan SPK.
+			2. Relevansi Metode: Penggunaan metode MOORA sangat relevan dalam konteks keputusan yang melibatkan banyak kriteria. Ini menunjukkan implementasi praktis dari metode teori ke dalam aplikasi nyata.
+			3. Hasil yang Dapat Diandalkan: Uji black-box yang dilakukan untuk menguji fungsionalitas sistem menunjukkan bahwa semua menu dan tombol berfungsi dengan baik, menandakan bahwa sistem tersebut baik untuk digunakan.
 
-						Database: Database menyimpan data smartphone, termasuk spesifikasi, harga, dan fitur lainnya. Data ini digunakan untuk perhitungan dalam metode SMART.
+			<h4>Kekurangan</h4> 
+			1. Kurangnya Analisis Lebih Dalam: Meskipun hasil menunjukkan bahwa sistem berfungsi dengan baik, artikel ini tidak menjelaskan lebih dalam mengenai tantangan yang dihadapi selama implementasi dan bagaimana mereka diatasi.
+			2. Studi Kasus Terbatas: Penelitian ini hanya dilakukan pada satu koperasi, sehingga generalisasi hasil ke koperasi lain atau konteks yang berbeda mungkin memerlukan penelitian lebih lanjut.
 
-						Algoritma SMART: Algoritma ini mengimplementasikan langkah-langkah metode SMART untuk menghitung nilai total dari setiap smartphone berdasarkan input kriteria dan bobot dari pengguna.
+			<h4>Kesimpulan</h4> 
+			Secara keseluruhan, artikel tersebut menyajikan kontribusi penting dalam pengembangan dan penerapan sistem pendukung keputusan dengan metode MOORA. Meskipun ada beberapa keterbatasan yang perlu diperhatikan, hasil penelitian menunjukkan bahwa sistem ini dapat menjadi solusi untuk koperasi dalam menentukan kelayakan peminjaman modal secara efisien. Rekomendasi untuk penelitian lebih lanjut dapat dirumuskan untuk memperluas penggunaan sistem ini ke area atau kelompok lainnya.
 
-						Backend: Sistem backend menangani proses perhitungan dan manajemen data, serta menyediakan API untuk komunikasi antara UI dan database.
 					</div>
 					<div class="gallery-post">
 						<img class="gallery-post__item cover lazyload" src="./assets/img/artikel1/artikel.PNG" data-zoom alt="" />
@@ -138,7 +158,7 @@
 						<div class="gallery-post__caption">Work by <a href="#">Colin Adams</a>, <a href="#">Mark
 								Craig</a></div>
 					</div>
-					<div class="caption-post">
+					<!-- <div class="caption-post">
 						<h2 class="title title--h2">If you’re not prepared to be wrong, you’ll never come up with
 							anything original.</h2>
 						<p>Implementasi sistem dilakukan menggunakan bahasa pemrograman PHP dengan framework Laravel sebagai backend dan MySQL sebagai database. Berikut adalah tahapan implementasi sistem:
@@ -162,7 +182,7 @@
 							</p>
 							<span class="block-quote__author">AMaanari, J. I., Sengkey, R., Wowor, H. F., & Rindengan, Y. D. Y. (2022). Perancangan Basis Data Perusahaan Distribusi dengan Menggunakan Oracle. Jurnal Teknik Elektro, 10(1).</span>
 						</blockquote>
-					</div>
+					</div> -->
 					<footer class="footer-post">
 						<a class="footer-post__share" href="http://facebook.com/"><i
 								class="font-icon icon-facebook"></i><span>Facebook</span></a>
